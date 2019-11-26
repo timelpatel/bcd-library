@@ -1,0 +1,9 @@
+/dist
+.DS_Store
+*.DS_Store
+/node_modules
+*.orig
+/.sass-cache
+.Thumbs.db
+*.Thumbs.db
+Thumbs.db

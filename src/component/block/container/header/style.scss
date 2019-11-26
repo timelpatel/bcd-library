@@ -1,0 +1,14 @@
+@import '../../../../asset/base.scss';
+
+.container__header {
+  background: $color-white;
+  border-bottom: 1px solid $color-grey3;
+  box-shadow: 0 2px 8px $color-grey2;
+  color: $color-white;
+  height: 79px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}

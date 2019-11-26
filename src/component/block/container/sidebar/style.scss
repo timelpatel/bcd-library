@@ -1,0 +1,8 @@
+@import '../../../../asset/base.scss';
+
+.container__sidebar {
+  background: $color-grey1;
+  float: left; // todo REPLACE
+  height: 100%;
+  max-width: 300px;
+}

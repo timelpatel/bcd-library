@@ -1,0 +1,12 @@
+@import '../../../../asset/base.scss';
+
+h1.typography__logo {
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #306, #f30);
+  font-family: $font-stack-title;
+  font-size: 27px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+}
