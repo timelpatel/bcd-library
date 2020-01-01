@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Container__Library_Page from '../../../component/block/container/library-page'
 import Typography__Body from '../../../component/block/typography/body'
 
 const ComponentsPage = () => (
-  <React.Fragment>
+  <Container__Library_Page>
 
     <Typography__Body>Components</Typography__Body>
 
@@ -19,7 +20,7 @@ const ComponentsPage = () => (
       Modules
     </Link>
 
-  </React.Fragment>
+  </Container__Library_Page>
 )
 
 export default ComponentsPage

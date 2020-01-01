@@ -1,22 +1,17 @@
 const webpack = require('webpack')
 const path = require('path')
-const APP_DIR = path.resolve(__dirname, 'src')
+const APP_DIR = path.resolve(__dirname, 'src/')
 const copyPlugin = require('copy-webpack-plugin')
-const BUILD_DIR = path.resolve(__dirname, 'dist')
+const BUILD_DIR = path.resolve(__dirname, 'dist/')
 
 const config = {
-  entry: APP_DIR + '/app.js',
-  output: {
-    filename: 'bundle.js',
-    path: BUILD_DIR,
-    publicPath: '/',
-  },
   devServer: {
     contentBase: BUILD_DIR,
     inline: true,
-    port: 3000,
+    port: 3030,
     watchContentBase: true,
   },
+  entry: APP_DIR + '/app.js',
   module: {
     rules: [
       {
@@ -43,6 +38,11 @@ const config = {
         ]
       },
     ],
+  },
+  output: {
+    filename: 'bundle.js',
+    path: BUILD_DIR,
+    // publicPath: '/',
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

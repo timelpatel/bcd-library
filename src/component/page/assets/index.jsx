@@ -1,11 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Typography__Body from '../../../component/block/typography/body'
+import Card__Info from '../../../component/block/card/info'
+import Typography__Page_Title from '../../../component/block/typography/page-title'
 
 const AssetsPage = () => (
   <React.Fragment>
 
-    <Typography__Body>Assets</Typography__Body>
+    <Typography__Page_Title
+      text='Assets'
+    />
+
+    <Card__Info
+      // link='/colors'
+      title='Colors'
+    />
 
     <Link
       to='/colors'

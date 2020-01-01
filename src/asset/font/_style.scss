@@ -21,22 +21,7 @@
 @include font-face(heavydock11, '/asset/font/heavy-dock11/heavy_dock11');
 @include font-face(helveticaneueultralight, '/asset/font/helvetica-neue/helveticaneueultralight');
 
-// variables
+// fonts
 $font-stack-title: heavydock11, 'Arial Black';
 $font-stack-normal: helveticaneue, helvetica, arial;
 $font-stack-light: helveticaneueultralight, 'helveticaneueultralight', helvetica, arial;
-
-a:link, a:visited {
-  color: $font-color-link;
-  text-decoration: none;
-}
-
-a:active, a:hover {
-  color: $font-color-link-hover;
-}
-
-.hide-text {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}

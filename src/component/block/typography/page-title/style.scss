@@ -1,0 +1,13 @@
+@import '../../../../asset/base.scss';
+
+.typography__page_title {
+  color: $color-black2;
+  font-family: $font-stack-light;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 415px) {
+    font-size: 21px;
+  }
+}

@@ -2,14 +2,14 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styles from './style.scss'
 
-const Button__Primary = (props) => (
+const Button__Primary = (href, text) => (
 
   <NavLink
     className={`${styles.button__primary} ${styles.button__primary__on_color}`}
-    to={props.href}
+    to={href}
   >
     <span>
-      {props.text}
+      {text}
     </span>
   </NavLink>
 

@@ -5,12 +5,12 @@ import layout from './layout.scss'
 import Typography__Header_Link from '../../../../component/block/typography/header-link'
 import Typography__Logo from '../../../../component/block/typography/logo'
 
-const Header_Footer__Header = () => (
+const Page_Structure__Header = () => (
 
   <Container__Header>
     <div className={layout.typography__logo}>
       <Typography__Logo>
-        <Link to='/'>BCD</Link>
+        <Link to='/'>Infinity</Link>
       </Typography__Logo>
     </div>
 
@@ -29,4 +29,4 @@ const Header_Footer__Header = () => (
 
 )
 
-export default Header_Footer__Header
+export default Page_Structure__Header
