@@ -1,24 +1,39 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Card__Info from '../../../component/block/card/info'
 import Container__Library_Page from '../../../component/block/container/library-page'
-import Typography__Body from '../../../component/block/typography/body'
+import { Grid_Col, Grid_Padding, Grid_Row } from '../../../asset/grid'
+import Typography__Page_Title from '../../../component/block/typography/page-title'
 
 const ComponentsPage = () => (
   <Container__Library_Page>
 
-    <Typography__Body>Components</Typography__Body>
+    <Grid_Padding>
+      <Grid_Row>
+        <Grid_Col span={12}>
+          <Typography__Page_Title
+            text='Components'
+          />
+        </Grid_Col>
+      </Grid_Row>
 
-    <Link
-      to='/blocks'
-    >
-      Blocks
-    </Link>
-<br />
-    <Link
-      to='/modules'
-    >
-      Modules
-    </Link>
+      <Grid_Row>
+        <Grid_Col span={6}>
+          <Card__Info
+            img='/asset/img/temp_circles.gif'
+            title='Blocks'
+            url='/blocks'
+          />
+        </Grid_Col>
+
+        <Grid_Col span={6}>
+          <Card__Info
+            img='/asset/img/temp_dots.png'
+            title='Modules'
+            url='/modules'
+          />
+        </Grid_Col>
+      </Grid_Row>
+    </Grid_Padding>
 
   </Container__Library_Page>
 )

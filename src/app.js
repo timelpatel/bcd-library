@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter as Router } from 'react-router-dom'
+import { Grid_Container } from './asset/grid'
 import Page_Structure__Header from './component/module/page-structure/header'
 import Routes from './routes.js'
 
@@ -17,7 +18,9 @@ const App = () => (
   <React.Fragment>
     <Page_Structure__Header />
 
-    <Routes />
+    <Grid_Container>
+      <Routes />
+    </Grid_Container>
 
     {/* <Header_Footer__Footer /> */}
   </React.Fragment>

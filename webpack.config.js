@@ -48,6 +48,10 @@ const config = {
     new webpack.HotModuleReplacementPlugin(),
     new copyPlugin([
       {
+        from: APP_DIR + '/asset/img',
+        to: BUILD_DIR + '/asset/img'
+      },
+      {
         from: APP_DIR + '/index.html',
         to: BUILD_DIR
       }
