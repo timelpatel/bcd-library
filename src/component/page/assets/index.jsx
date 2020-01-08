@@ -1,6 +1,6 @@
 import React from 'react'
 import Card__Info from '../../../component/block/card/info'
-import { Grid_Col, Grid_Padding, Grid_Row } from '../../../asset/grid'
+import { Grid_Col, Grid_Padding, Grid_Row } from '../../../asset/grid/index'
 import Typography__Page_Title from '../../../component/block/typography/page-title'
 
 const AssetsPage = () => (

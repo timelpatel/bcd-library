@@ -1,0 +1,10 @@
+@import '../../../../asset/base.scss';
+
+.list__color {
+  li {
+    font-family: $font-stack-light;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px;
+  }
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter as Router } from 'react-router-dom'
-import { Grid_Container } from './asset/grid'
+import { Grid_Container } from './asset/grid/index'
 import Page_Structure__Header from './component/module/page-structure/header'
 import Routes from './routes.js'
 
